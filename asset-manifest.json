@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ineveter/static/css/main.059adb22.css",
-    "main.js": "/ineveter/static/js/main.518d34ed.js",
+    "main.js": "/ineveter/static/js/main.22ecddf2.js",
     "static/js/453.891bdf7f.chunk.js": "/ineveter/static/js/453.891bdf7f.chunk.js",
     "index.html": "/ineveter/index.html",
     "main.059adb22.css.map": "/ineveter/static/css/main.059adb22.css.map",
-    "main.518d34ed.js.map": "/ineveter/static/js/main.518d34ed.js.map",
+    "main.22ecddf2.js.map": "/ineveter/static/js/main.22ecddf2.js.map",
     "453.891bdf7f.chunk.js.map": "/ineveter/static/js/453.891bdf7f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.059adb22.css",
-    "static/js/main.518d34ed.js"
+    "static/js/main.22ecddf2.js"
   ]
 }
