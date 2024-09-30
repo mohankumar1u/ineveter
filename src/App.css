@@ -1,38 +1,89 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.bar-chart{
+  width:45vw;
+  position:relative;
+}
+.bar{
+  width:45vw !important;
+  height: 400px !important;
+  margin: auto !important;
+  margin-top: auto;
+  position:absolute;
+  bottom: 10px;
+}
+header {
+  text-align: center;
+  background-color: rgb(43 94 31 / 99%);
   color: white;
+  min-height: 80px;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-size: 2rem;
+  margin: auto;
+  padding: 20px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header p {
+  margin: 5px 0;
+}
+.data-dispaly-block{
+  display:flex
+}
+.items-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.items-table th, .items-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.items-table th {
+  background-color: #f2f2f2;
+}
+
+.items-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.items-table td {
+  background-color: #fafafa;
+}
+.pie-chart{
+  width:45vw;
+}
+.pie{
+  height: 500px !important;
+  width: 500px !important;
+}
+.data-table{
+  width:90vw;
+  padding: 5vw;
+}
+footer {
+  text-align: right;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 5px 0;
+  font-weight: bold;
 }
