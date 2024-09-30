@@ -4,7 +4,7 @@ import 'chart.js/auto';
 
 function App() {
   const storeData = {
-    "Store Name": "Rangila",
+    "Store Name": "Rangeela",
     "Store Number": "1156",
     "Address": "70 Bridgeport Road East, Waterloo, ON N2J 2J9",
     "Phone Number": "519-746-1378",
