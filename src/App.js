@@ -3,6 +3,7 @@ import { Pie,Bar } from 'react-chartjs-2';
 import 'chart.js/auto';
 
 function App() {
+  
   const storeData = {
     "Store Name": "Rangeela",
     "Store Number": "1156",
