@@ -6,49 +6,49 @@ export default function Dashboard() {
   const navigate = useNavigate();
   const tabledata =[
     {
-      "name": "Alice",
-      "project": "Website Redesign",
+      "name": "Rupesh",
+      "market": "St jacobs Farmers market",
       "status": "completed",
       "date": "2024-10-01"
     },
     {
       "name": "Bob",
-      "project": "Mobile App",
+      "market": "Kitchener market",
       "status": "in progress",
       "date": "2024-10-15"
     },
     {
       "name": "Charlie",
-      "project": "API Development",
+      "market": "Yes market",
       "status": "completed",
       "date": "2024-10-05"
     },
     {
       "name": "Diana",
-      "project": "SEO Optimization",
+      "market": "Amiri market",
       "status": "in progress",
       "date": "2024-10-12"
     },{
       "name": "Alice",
-      "project": "Website Redesign",
+      "market": "Walmart",
       "status": "completed",
       "date": "2024-10-01"
     },
     {
       "name": "Bob",
-      "project": "Mobile App",
+      "market": "No frills",
       "status": "in progress",
       "date": "2024-10-15"
     },
     {
       "name": "Charlie",
-      "project": "API Development",
+      "market": "Costco",
       "status": "completed",
       "date": "2024-10-05"
     },
     {
       "name": "Diana",
-      "project": "SEO Optimization",
+      "market": "SEO Optimization",
       "status": "in progress",
       "date": "2024-10-12"
     }
@@ -59,7 +59,7 @@ export default function Dashboard() {
       <TableHead>
         <TableRow>
           <TableCell>Name</TableCell>
-          <TableCell>Project</TableCell>
+          <TableCell>Market</TableCell>
           <TableCell>Status</TableCell>
           <TableCell>Date</TableCell>
         </TableRow>

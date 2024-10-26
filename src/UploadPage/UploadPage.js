@@ -5,11 +5,8 @@ import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 
 const ImageUploadButton = () => {
   const handleFileChange = (event) => {
-    debugger
     const file = event.target.files[0];
-    debugger
     if (file) {
-      debugger
       console.log(file);
     }
   };

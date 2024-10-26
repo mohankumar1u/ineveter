@@ -6,7 +6,7 @@ import Footer from './Footer/Footer';
 function App() {
   return (
     <div className="App">
-      <div className='h-[calc(100vh-100px)]'>
+      <div className='h-[calc(100vh-100px)] overflow-scroll'>
       <RouterProvider router={routes}/>
       
     </div>
