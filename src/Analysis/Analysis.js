@@ -108,6 +108,10 @@ export default function Analysis() {
               <td>{item['Total Price']}</td>
             </tr>
           ))}
+          <tr key={storeData.Items.length}>
+          <td colSpan={3}><b>Grand Total</b></td>
+          <td>$20</td>
+          </tr>
         </tbody>
       </table>
     </section></div>
