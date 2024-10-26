@@ -68,7 +68,7 @@ export default function Dashboard() {
         {tabledata.map((row, index) => (
           <TableRow key={index}>
             <TableCell>{row.name}</TableCell>
-            <TableCell>{row.project}</TableCell>
+            <TableCell>{row.market}</TableCell>
             <TableCell>{row.status}</TableCell>
             <TableCell>{row.date}</TableCell>
             <TableCell onClick={()=>{
