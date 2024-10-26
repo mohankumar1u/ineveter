@@ -27,7 +27,7 @@ body {
 }
 header {
   text-align: center;
-  background-color: rgb(43 94 31 / 99%);
+  background-color: rgba(28, 28, 55, 0.99);
   color: white;
   min-height: 80px;
 }
